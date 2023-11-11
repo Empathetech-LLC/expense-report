@@ -1,6 +1,6 @@
 # Expense report
 
-The python script Empathetech LLC uses to generate its (public) expense reports.
+The python script Empathetech LLC uses to generate its expense reports.
 
 You can find the expense reports [here]() 
 
@@ -12,7 +12,7 @@ You can find the expense reports [here]()
 
 # Usage
 
-Currently, Empathetech LLC uses QuickBooks. The script is run (goal of: monthly) on the output from Expenses > All transactions > Year to Date > Export. We don't make those public for obvious reasons.
+Currently, Empathetech LLC uses QuickBooks. The script is run on the output from Expenses > All transactions > Year to Date > Export. We don't make those public for obvious reasons.
 
 Once the reports are finished exporting, they are converted to .csv. Those .csv are then provided to the script like so...
 
