@@ -2,7 +2,7 @@ import pandas as pd
 import sys
 import os
 
-def process_csv(input_file_path, output_modified_path, output_ytd_totals_path):
+def process_csv(input_file_path):
     directory = os.path.dirname(input_file_path)
 
     # Set the output file paths
