@@ -1,28 +1,22 @@
 # Expense report
 
-The python script Empathetech LLC uses to generate its expense reports.
+`expense-report.py` is the script we use to generate our expense reports.
 
-You can find the expense reports [here]() 
+Currently, we use QuickBooks. The script is run on the output from Expenses > All transactions > Year to Date > Export.
 
-## Table of Contents
-
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [License](#license)
-
-# Usage
-
-Currently, Empathetech LLC uses QuickBooks. The script is run on the output from Expenses > All transactions > Year to Date > Export. We don't make those public for obvious reasons.
-
-Once the reports are finished exporting, they are converted to .csv. Those .csv are then provided to the script like so...
+Those exports are then provided to the script like so...
 
 ```bash
-python3 expense-report.py
+python3 PATH_TO_CSV
 ```
+
+The goal is to update the report monthly. The [latest](./latest.csv) report is tracked as well as [previous](./archive/) reports.
 
 # Contributing
 
-If you think it's cool that we publish our financial, why not be a part of it?!
+If you think it's cool that we publish our financial data, why not be a part of it?!
+
+Jokes aside, many thanks for any and all support!
 
 ### Paypal
 
