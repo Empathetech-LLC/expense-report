@@ -10,17 +10,17 @@ def process_csv(expense_data_path):
     clean_output_path = os.path.join(directory, f'{file_date}-cleaned.csv')
     ytd_totals_output_path = os.path.join(directory, f'{file_date}-ytd-totals.csv')
 
-    # Read the CSV file, skipping the first row
-    df = pd.read_csv(expense_data_path, skiprows=1)
+    # Read the CSV file
+    df = pd.read_csv(expense_data_path)
 
     # Remove unnecessary columns
-    df.drop(['No.', 'Payee', 'Memo'], axis=1, inplace=True)
-
-    # Remove the day from the dates
-    df['Date'] = pd.to_datetime(df['Date']).dt.strftime('%m/%Y')
+    df.drop(['selected', 'No.', 'Payee', 'Action'], axis=1, inplace=True)
 
     # Filter out rows where Type is 'Credit Card Payment'
     df_filtered = df[df['Type'] != 'Credit Card Payment']
+
+    # Remove the day from the dates
+    df['Date'] = pd.to_datetime(df['Date']).dt.strftime('%m/%Y')
 
     # Write the cleaned data to a new CSV file
     df_filtered.to_csv(clean_output_path, index=False)
