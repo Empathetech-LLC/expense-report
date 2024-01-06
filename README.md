@@ -4,7 +4,7 @@ Empathetech LLC's expense data, made public.
 
 # Usage
 
-Currently, Empathetech uses QuickBooks (not affiliated). 
+Currently, we use QuickBooks (not sponsored/affiliated).
 
 `expense-report.py` generates the reports by running
 
@@ -20,7 +20,7 @@ The goal is to update the report monthly. The [latest](./latest.csv) report is t
 
 # Contributing
 
-If you think it's cool that we publish our financial data, why not be a part of it?!
+If you think it's cool that we publish our financial data, why not be a part of it?
 
 Many thanks for any and all support!
 
