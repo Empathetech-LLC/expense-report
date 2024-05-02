@@ -16,7 +16,7 @@ on the output from... QuickBooks > Expenses > All transactions > Year to Date > 
 
 ## Re-usage
 
-The goal is to update the report monthly. The [latest](./latest.csv) report is tracked as well as [previous](./archive/) reports.
+The goal is to update the report every quarter. The [latest](./latest.csv) report is tracked as well as [previous](./archive/) reports.
 
 # Contributing
 
