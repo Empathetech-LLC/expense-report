@@ -44,3 +44,9 @@ Many thanks for any and all support!
 # License
 
 [GNU GPLv3](LICENSE)
+
+# Credits
+
+## Translations
+
+Note to translator: please credit yourself :)
