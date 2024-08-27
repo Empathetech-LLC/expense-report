@@ -1,31 +1,31 @@
-# Expense report
+# Rapport financier
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/Empathetech-LLC/expense-report/blob/main/README.md)
 [![es](https://img.shields.io/badge/lang-es-red.svg)](https://github.com/Empathetech-LLC/expense-report/blob/main/README.es.md)
 [![fr](https://img.shields.io/badge/lang-fr-white.svg)](https://github.com/Empathetech-LLC/expense-report/blob/main/README.fr.md)
 
-Empathetech LLC's expense data, made public.
+Les rapports financiers publics d'Empathetech LLC.
 
-# Usage
+# Utilisation
 
-Currently, we use QuickBooks (not sponsored/affiliated).
+Nous utilisons actuellement QuickBooks (non-affilié, ni sponsorisé).
 
-`expense-report.py` generates the reports by running
+`expense-report.py` génère les rapports par la commande
 
 ```bash
 python3 expense-report.py PATH_TO_QB_CSV
 ```
 
-on the output from... QuickBooks > Expenses > All transactions > Year to Date > Export.
+exécutée via... QuickBooks > Dépenses > Toutes les transactions > Début de l'année jusqu'à aujourd'hui > Exporter.
 
-## Re-usage
+## Ré-utilisation
 
-The [latest](./latest.csv) report and an [archive](./archive/) of previous reports are tracked.
+Le [dernier](./latest.csv) rapport et une [archive](./archive/) des rapports précédents sont disponibles.
 
-# Contributing
+# Contributions
 
-If you think it's cool that we publish our financial data, why not be a part of it?
+Si vous trouvez intéressant le fait que nous publions nos rapports financiers, pourquoi ne pas en faire partie ?
 
-Many thanks for any and all support!
+Un grand merci pour tout votre soutien !
 
 ### Paypal
 
@@ -41,12 +41,12 @@ Many thanks for any and all support!
 
 ### [Ko-fi](https://ko-fi.com/empathetech)
 
-# License
+# Licence
 
 [GNU GPLv3](LICENSE)
 
-# Credits
+# Crédits
 
-## Translations
+## Traductions
 
-Note to translator: please credit yourself :)
+Français | [Alexis Nguyen](https://www.fiverr.com/alexisnguyen2)
