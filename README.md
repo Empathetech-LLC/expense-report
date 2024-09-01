@@ -27,6 +27,14 @@ If you think it's cool that we publish our financial data, why not be a part of 
 
 Many thanks for any and all support!
 
+### [GoFundMe](https://gofund.me/c047d07e)
+
+### [Patreon](https://patreon.com/empathetech)
+
+### [Buy Me a Coffee](https://www.buymeacoffee.com/empathetech)
+
+### [Ko-fi](https://ko-fi.com/empathetech)
+
 ### Paypal
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=NGEL6AB5A6KNL)
@@ -34,12 +42,6 @@ Many thanks for any and all support!
 ### [Venmo](https://venmo.com/empathetech)
 
 ### [Cash App](https://cash.app/$empathetech)
-
-### [Patreon](https://patreon.com/empathetech)
-
-### [Buy Me a Coffee](https://www.buymeacoffee.com/empathetech)
-
-### [Ko-fi](https://ko-fi.com/empathetech)
 
 # License
 
